@@ -1,0 +1,114 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/e6/35/bc/e635bc1c173742238f04c5056f690c15.jpg) ;
+    
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.lin{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.muha {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url(../img/muha.png);
+    animation: muha 7s linear infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.aziz {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url(../img/aziz.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: aziz 7s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.home {
+    display: block;
+    background: black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    margin: auto;
+    background-image: url(https://lirp.cdn-website.com/fd9b0d33/dms3rep/multi/opt/Logo_s-640w.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 1000px;
+}
+
+
+
+@keyframes aziz {
+    from {
+        transform: rotate(0deg) translateX(250px) rotate(0deg);
+        
+    }
+
+    to {
+        transform: rotate(360deg) translateX(250px) rotate(-360deg);
+    }
+}
+
+@keyframes muha {
+    from {
+        transform: rotate(0deg) translateX(200px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg) translateX(200px) rotate(360deg);
+    }
+}
